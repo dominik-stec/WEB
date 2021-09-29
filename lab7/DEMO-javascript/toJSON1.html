@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+function Room() {
+   this.number = 103;
+  
+ this.toJSON = function() {
+    return this.number;
+  };
+  
+}
+
+alert( JSON.stringify( new Room() ) );
+</script>
+</body>
+</html>

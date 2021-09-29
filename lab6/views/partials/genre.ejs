@@ -1,0 +1,32 @@
+<header>
+<h1><a href="../../">Księgarnia Żurek</a></h1>
+</header>
+<%- include("nav_genres.ejs", {className: "small"}) %>
+<section>
+<h2><%= genre %></h2>
+
+
+    <input  type="button"  name="sortGenres" value="sortuj" onclick="<% f_submit() %>">
+
+    <ul>
+    <%
+    for(var i=0; i<books.length; i++) {%>
+       <li>
+           <span class='title'><%= books[i][0] %></span> —
+           <span class='author'><%= books[i][1] %></span>
+       </li>
+    <% }%>
+</ul>
+<form method="post">
+    <p>
+        <span>Tytuł: </span><input name='title'  required='required' />
+    </p>
+    <p>
+        <span>Autor: </span><input name='author'  required='required' />
+    </p>
+    <p>
+        <input type='submit' value="Dodaj książkę" />
+    </p>
+</form>
+</section>
+

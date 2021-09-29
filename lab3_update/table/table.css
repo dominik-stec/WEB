@@ -1,0 +1,22 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tr th  {
+
+}
+table tr:first-child {
+    border: 1px solid black;
+}
+table tr:nth-last-child(1) {
+    background-color: lightblue;
+}
+table tr:nth-last-child(3) {
+    background-color: lightblue;
+}
+table tr:nth-last-child(5) {
+    background-color: lightblue;
+}
+table tr:nth-last-child(7) {
+    background-color: lightblue;
+}

@@ -1,0 +1,36 @@
+body {
+    counter-reset: counter_h2 counter_h3 counter_fcap;
+}
+article h2 {
+    counter-increment: counter_h2;
+}
+article h2:before {
+    content: "Rozdział " counter(counter_h2) ". ";
+}
+article h3 {
+    counter-increment: counter_h3;
+}
+article h3:before {
+    content: counters(counter_h2, ".") "." counters(counter_h3, ".") ". ";
+}
+.proof {
+    counter-increment: counter_h3 -2;
+}
+.proof:before {
+    content: "Dowód. ";
+    font-style: italic;
+}
+.definition:before {
+    content: "Definicja " counters(counter_h2, ".") "." counters(counter_h3, ".") ". ";
+    font-weight: bold;
+}
+.theorem:before {
+    content: "Twierdzenie " counters(counter_h2, ".") "." counters(counter_h3, ".") ". ";
+    font-weight: bold;
+}
+figcaption {
+    counter-increment: counter_fcap;
+}
+figcaption:before {
+    content: "Rysunek " counter(counter_fcap) ". ";
+}

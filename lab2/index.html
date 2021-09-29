@@ -1,0 +1,136 @@
+<!-- google narzedzie do testowania uporzadkowanych danych -->
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+      <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <title>Dominik Stec PJATK TIN webpage</title>
+  </head>
+  <body>
+    <header itemscope itemtype="http://schema.org/CreativeWork">
+      <h1 itemprop="keywords">PJATK TIN webpage</h1>
+    </header>
+    
+      <figure itemscope itemtype="http://schema.org/ImageObject">
+          <img src="morze.jpeg" title="Fale na morzu" alt="zdjęcia morza" width="400" height="300">
+          <figcaption itemprop="caption">Morze Bałtyckie</figcaption>
+      </figure>
+      
+      <nav>
+          <h2>Spis treści</h2>
+          <ul>
+              <li><a href="#sec1" class="menu">Dane osobowe</a></li>
+              <li><a href="#sec2" class="menu">Zainteresowania</a></li>
+              <li><a href="#sec3" class="menu">Wykształcenie</a>
+                  <ol>
+                      <li><a href="#sec3.1" class="menu">Podstawowe</a></li>
+                      <li><a href="#sec3.2" class="menu">Gimnazjum</a></li>
+                      <li><a href="#sec3.3" class="menu">Liceum</a></li>
+                      <li><a href="#sec3.4" class="menu">Studia</a></li>
+                  </ol>
+              </li>
+          </ul>
+      </nav>
+
+<div id="text-site-position">
+      <section itemscope itemtype="http://schema.org/Person">
+          <h2><span id="sec1">Dane osobowe</span></h2>
+            <p itemprop="name">
+                <span  itemprop="givenName">Dominik</span>
+                <span itemprop="familyName">Stec</span>
+            </p>
+            <p>
+                <span itemprop="address">Gdynia</span>
+            </p>
+            <p>
+                <span itemprop="jobTitle">student</span>
+            </p>
+      </section>
+
+      
+      <article>
+          <h2><span id="sec2">Zainteresowania:</span></h2>
+          <section>
+              <h3>Technologie ICT&hellip;</h3>
+          </section>
+          <section>
+              <h3>Sport&hellip;</h3>
+          </section>
+                <section itemscope itemtype="http://schema.org/CreativeWork" id="font">
+                    <h3>Literatura:</h3>
+                      <ol id="roman-digit-list">
+                        <li>
+                            <span itemprop="keywords" class="title" id="italic">Wzorce Projektowe</span>
+                            <ul>
+                                <li>
+                                        <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="author" id="capitalize">
+                                            <div itemprop="name">
+                                                <span itemprop="givenName">Erich</span>
+                                                <span itemprop="familyName">Gamma</span>,
+                                            </div>
+                                            <div itemprop="name">
+                                                <span itemprop="givenName">Richard</span>
+                                                <span itemprop="familyName">Helm</span>,
+                                            </div>
+                                            <div itemprop="name">
+                                                <span itemprop="givenName">Ralph</span>
+                                                <span itemprop="familyName">Johnson</span>,
+                                            </div>
+                                            <div itemprop="name">
+                                                <span itemprop="givenName">John</span>
+                                                <span itemprop="familyName">Vlissides</span>,
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><span itemprop="publisher" class="publisher">Helion</span></li>
+                                <li><span itemprop="datePublished" class="year">2017</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span itemprop="keywords" class="title" id="italic">Język C# 6.0 i platforma .NET 4.6</span>
+                            <ul>
+                                <li>
+                                    <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="author" id="capitalize">
+                                        <div itemprop="name">
+                                            <span itemprop="givenName">Andrew</span>
+                                            <span itemprop="familyName">Troelsen</span>,
+                                        </div>
+                                        <div itemprop="name">
+                                            <span itemprop="givenName">Phiplip</span>
+                                            <span itemprop="familyName">Japikse</span>,
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span itemprop="publisher" class="publisher">PWN</span></li>
+                                <li><span itemprop="datePublished" class="year">2018</span></li>
+                            </ul>
+                        </li>
+                    </ol>                
+                </section>
+      </article>
+      
+      <section itemscope itemtype="http://schema.org/School">
+          <h2><span id="sec3">Wykształcenie</span></h2>
+          <section>
+              <h3><a itemprop="legalName" id="sec3.1" href="http://sp7chelm.pl/">&bdquo;Szkoła Podstawowa nr&nbsp;7&ldquo;</a></h3>
+          </section>
+          <section>
+              <h3><a itemprop="legalName" id="sec3.2" href="http://www.zso3chelm.pl/">&bdquo;Zespół Szkół Ogólnokształcących Nr 3&ldquo;</a></h3>
+          </section>
+          <section>
+              <h3><a itemprop="legalName" id="sec3.3" href="http://www.2lochelm.pl/">&bdquo;II&nbsp;Liceum Ogólnokształcące&ldquo;</a></h3>
+          </section>
+          <section>
+              <h3><a itemprop="legalName" id="sec3.4" href="https://gdansk.pjwstk.edu.pl/">&bdquo;Polsko-Japońska Akademia Technik Komputerowych&ldquo;</a></h3>
+          </section>
+      </section>
+</div>
+
+    <footer>
+    <p>Strona stworzona: 
+        <time datetime="2019-03-03">03 marzec 2019 roku</time>
+    </p>
+    </footer>
+  </body>
+</html>

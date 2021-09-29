@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+}
+.icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    float: left;
+}
+.open>div.icon {
+    background:url(icons.png) 0px -16px no-repeat;
+}
+.closed>div.icon {
+    background:url(icons.png) 0px 0px no-repeat;
+}
+.leaf>div.icon {
+    background:url(icons.png) 0px -32px no-repeat;
+}
+.open>div.icon:hover  {
+    cursor: pointer;
+}
+.closed>div.icon:hover {
+    cursor: pointer;
+}
+.leaf>div.icon:hover {
+    cursor: pointer;
+}
+.text {
+    display: inline-block;
+}

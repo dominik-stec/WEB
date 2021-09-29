@@ -1,0 +1,129 @@
+
+
+    body {
+        background-color: #fff1bd;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Calibri, Verdana, Arial, Univers, Futura, sans-serif;
+        font-size: 200%;
+        color: orangered;
+        border: 3px outset coral;
+        border-radius: 10%;
+        background-color: antiquewhite;
+    }
+
+    figure {
+        display: block;
+        position: absolute;
+        margin-left: 40%;
+    }
+
+    nav ul, nav ol {
+        list-style-type: none;
+    }
+
+    nav {
+        display: inline;
+        position: fixed;
+        top: 7pc;
+        padding: 2%;
+        margin: 0;
+        border: 3px solid coral;
+        border-radius: 10%;
+        background-color: cornflowerblue;
+        height: 40%;
+        max-height: 250px;
+        min-height: 240px;
+        width: 20%;
+        max-width: 250px;
+        min-width: 200px;
+    }
+
+    nav h2 {
+        text-align: center;
+        color: #fff1bd;
+        font-family: Verdana, Arial, Univers, Futura, sans-serif;
+        font-size: 130%;
+        font-weight: bolder;
+        font-style: oblique;
+        letter-spacing: 0.3em;
+        word-spacing: 1em;
+        border: 1px solid #fff1bd;
+        border-radius: 10%;
+        margin: 1pt;
+    }
+
+    .menu {
+        padding: 0;
+        margin: 0;
+        border: 2px solid coral;
+        background-color: white;
+        text-decoration: none;
+        border-radius: 10%;
+        line-height: 1.6em;
+        border-left-width: 1ch;
+        font-family: Calibri, Verdana, Arial, Univers, Futura, sans-serif;
+    }
+
+    nav ol {
+        display: none;
+    }
+
+    nav > ul > li:hover > ol {
+        display: block;
+    }
+
+    nav a:link, section a:link {
+        color: blue;
+    }
+
+    nav a:visited, section a:visited {
+        color: purple;
+    }
+
+    nav a:hover, section a:hover {
+        color: orange;
+    }
+
+    nav a:active, section a:active {
+        color: orangered;
+    }
+
+    #text-site-position {
+        display: block;
+        position: relative;
+        margin-left: 40%;
+        margin-top: 27pc;
+    }
+
+    article, section {
+        font-family: Calibri, Verdana, Arial, Univers, Futura, sans-serif;
+        font-size: large;
+        position: relative;
+        margin-bottom: 2em;
+    }
+
+    #roman-digit-list {
+        list-style-type: upper-roman;
+    }
+
+    #capitalize {
+        font-variant: small-caps;
+    }
+
+    #italic {
+        font-style: italic;
+    }
+
+    #font {
+        font-family: "Calibri Light", Verdana, Arial, Univers, Futura, sans-serif;
+    }
+
+    footer {
+        text-align: center;
+        border-top: 1px solid black;
+    }
+
+

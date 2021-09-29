@@ -1,0 +1,392 @@
+.set-defaults {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.reset-list-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#container {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-weight: normal;
+  text-align: left;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+}
+@media screen and (min-width: 780px) {
+  #container {
+    position: relative;
+    display: inline-flex;
+    flex-flow: row wrap;
+    max-width: 780px;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 780px) {
+  #container {
+    position: relative;
+    display: inline-flex;
+    flex-flow: row wrap;
+    max-width: 780px;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container {
+    position: relative;
+    display: inline-flex;
+    flex-flow: row wrap;
+    max-width: 580px;
+  }
+}
+#container header {
+  background-color: hsl(0, 100%, 85%);
+  text-align: center;
+}
+@media screen and (min-width: 780px) {
+  #container header {
+    overflow: auto;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: none;
+    order: -1;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 780px) {
+  #container header {
+    overflow: auto;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: none;
+    order: -1;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container header {
+    overflow: auto;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: none;
+    order: -1;
+  }
+}
+#container nav {
+  background-color: hsl(0, 100%, 85%);
+}
+@media screen and (min-width: 780px) {
+  #container nav {
+    overflow: auto;
+    width: 780px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    clear: none;
+    order: 0;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 780px) {
+  #container nav {
+    overflow: auto;
+    width: 780px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    clear: none;
+    order: 0;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container nav {
+    overflow: auto;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: none;
+    order: 0;
+  }
+}
+@media screen and (min-width: 580px) {
+  #container nav {
+    background-image: url(images/bg_nav.png);
+  }
+  #container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #container nav ul li {
+    float: left;
+  }
+  #container nav ul li a {
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-image: url(images/bg_nav.png);
+  }
+  #container nav ul li a:hover {
+    background-image: url(images/bg_nav_h.png);
+  }
+}
+@media screen and (max-width: 580px) {
+  #container nav {
+    background-image: url(images/bg_nav.png);
+  }
+  #container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #container nav ul li {
+    clear: both;
+  }
+  #container nav ul li a {
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-image: url(images/bg_nav.png);
+  }
+  #container nav ul li a:hover {
+    background-image: url(images/bg_nav_h.png);
+  }
+}
+#container #main {
+  background-color: hsl(0, 100%, 98%);
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: none;
+}
+@media screen and (min-width: 780px) {
+  #container #main {
+    overflow: auto;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    clear: none;
+    order: 2;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container #main {
+    overflow: auto;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    clear: none;
+    order: 1;
+  }
+}
+#container #main p,
+#container #main h1,
+#container #main h2,
+#container #main h3 {
+  padding: 10px;
+}
+#container #left {
+  background-color: hsl(0, 100%, 95%);
+  color: black;
+  font-size: x-small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+}
+@media screen and (min-width: 780px) {
+  #container #left {
+    overflow: auto;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    clear: none;
+    order: 1;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 780px) {
+  #container #left {
+    overflow: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    clear: none;
+    order: 2;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container #left {
+    display: none;
+  }
+}
+#container #left a:link,
+#container #left a:visited,
+#container #left a:active,
+#container #left a:focus {
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: underline;
+}
+#container #left a:hover {
+  color: #b39700;
+  font-size: small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: underline;
+}
+#container #left p,
+#container #left h2,
+#container #left h3 {
+  padding: 7px;
+}
+#container #important {
+  background-color: hsl(0, 100%, 90%);
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: none;
+}
+@media screen and (min-width: 780px) {
+  #container #important {
+    overflow: auto;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    clear: none;
+    order: 3;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 780px) {
+  #container #important {
+    overflow: auto;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    clear: none;
+    order: 3;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container #important {
+    overflow: auto;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    clear: none;
+    order: 3;
+  }
+}
+#container #important h2,
+#container #important li {
+  padding: 7px;
+}
+#container #important h2 a:link,
+#container #important li a:link,
+#container #important h2 a:visited,
+#container #important li a:visited,
+#container #important h2 a:active,
+#container #important li a:active,
+#container #important h2 a:focus,
+#container #important li a:focus {
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: underline;
+}
+#container #important h2 a:hover,
+#container #important li a:hover {
+  color: #b39700;
+  font-size: small;
+  font-weight: normal;
+  text-align: left;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: underline;
+}
+#container #important ul {
+  list-style-image: url(images/bullet.png);
+}
+#container footer {
+  background-color: hsl(0, 100%, 82%);
+  color: black;
+  font-size: small;
+  font-weight: normal;
+  text-align: center;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+}
+@media screen and (min-width: 780px) {
+  #container footer {
+    overflow: auto;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: both;
+    order: 4;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 780px) {
+  #container footer {
+    overflow: auto;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    clear: both;
+    order: 4;
+  }
+}
+@media screen and (max-width: 580px) {
+  #container footer {
+    overflow: auto;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    clear: both;
+    order: 4;
+  }
+}
+/*# sourceMappingURL=style.css.map */

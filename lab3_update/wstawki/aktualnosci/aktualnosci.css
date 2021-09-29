@@ -1,0 +1,23 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+article h2 {
+    background-color: gainsboro;
+    }
+article h2>time {
+    color: darkgrey;
+    float: right;
+}
+article {
+    float: left;
+}
+img{
+    float: left;
+    padding: 1em;
+}
+p{
+    text-align: left;
+    margin: 1em;
+    color: dimgrey;
+}
