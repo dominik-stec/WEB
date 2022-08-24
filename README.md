@@ -221,11 +221,11 @@ Project URL:
 [python-shield]: https://img.shields.io/badge/-Python-yellow
 [python-url]: https://www.python.org/
 
-[node-shield]: https://img.shields.io/badge/-Node-yellow
+[node-shield]: https://img.shields.io/badge/-Node-green
 [node-url]: https://nodejs.org/en/
-[javascript-shield]: https://img.shields.io/badge/-JavaScript-yellow
+[javascript-shield]: https://img.shields.io/badge/-JavaScript-red
 [javascript-url]: https://developer.mozilla.org/pl/docs/Web/JavaScript
-[html-shield]: https://img.shields.io/badge/-HTML-yellow
+[html-shield]: https://img.shields.io/badge/-HTML-white
 [html-url]: https://www.w3schools.com/html/
 [css-shield]: https://img.shields.io/badge/-CSS-yellow
 [css-url]: https://www.w3schools.com/css/
