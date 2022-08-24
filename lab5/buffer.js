@@ -3,13 +3,16 @@
 
 function createBuffer(){
     var buffer = '';
-    var f = function(str) {
-        if (arguments.length > 0) {
-            buffer += str;
+    var f = function() {
+        var i = arguments.length;
+        while (i > 0) {
+            buffer += arguments[arguments.length - i];
+            buffer += " "
+            i = i-1;
         }
-        else {
-            return buffer;
-        }
+        return buffer;
     };
     return f;
 }
+
+alert('buffer.js: ' + createBuffer()('first', 'second', 'third'))

@@ -2,7 +2,7 @@
 'use strict';
 
 let obj = {
-        className: 'first bordered'
+        className: 'first_name'
     };
 
 function switchClassName(obj, str) {
@@ -24,4 +24,6 @@ function switchClassName(obj, str) {
     obj.className = table.join(" ");
 }
 
+switchClassName(obj, 'new_name')
 
+alert('class.js: ' + obj.className)

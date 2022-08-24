@@ -1,7 +1,7 @@
 /* jshint globalstrict: true, devel: true, node: true */
 'use strict';
 
-String.prototype.erLik = function(text) {
+String.prototype.isEquals = function(text) {
     let longerTxt = this.length >= text.length ? this : text;
     let shorterTxt = this.length < text.length ? this : text;
     let counterTxt = 0;
@@ -158,7 +158,5 @@ String.prototype.erLik = function(text) {
     return result;
 };
 
-
-
-
-
+//alert(String.prototype.erLik("è text textxtè ø AS is"))
+alert('proto.js: ' + 'some_text === some_text ? ' + 'some_text'.isEquals('some_text'))

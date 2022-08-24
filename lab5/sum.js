@@ -8,3 +8,5 @@ function sum() {
     }
     return s
 }
+
+alert("sum.js: sum 123 + 123 = " + sum(123, 123))

@@ -1,50 +1,38 @@
 /* jshint globalstrict: true, devel: true, node: true */
 'use strict';
 
-    function cached(cache, fun)  {
+    function factorial(n)  {
 
-    cached.memo = {};
-    cached.memo = cache;
-        if(cache.length===1){
-            cached.memo[0]--;
-        }
-
-    return function(n) {
-
-
-           return fun(function recur() {
-
-                if(cache.length===1) {
-
-                    if(arguments[0]>cached.memo[0]) {
-                        return arguments[0] *(recur(arguments[0] -1));
-                    }
-                    else if(arguments[0] === cached.memo[0]) {
-                        return 1;
-                    }
-                    else if(arguments[0] < cached.memo[0]) {
-                        return 0;
-                    }
-
-                }
-
-                if(cache.length===2) {
-
-                        if(arguments[0]===0) {
-                            return 0;
-                        }
-                        if(arguments[0]<=2) {
-                            return 1;
-                        }
-
-                        return recur(arguments[0]-1) + recur(arguments[0]-2);
-
-                    }
-
-            }, n);
-
-        }
-
+     if (n > 1)
+    return n * factorial(n-1);
+  else
+    return 1;
 }
+
+
+function arithmeticSequence(n) {
+     if (n > 1)
+    return n + arithmeticSequence(n-1);
+  else
+    return 1;
+}
+
+function arithmeticSequence(n) {
+     if (n > 1)
+    return n + arithmeticSequence(n-1);
+  else
+    return 1;
+}
+
+function geometricSequence(n, step) {
+     if (n > 1)
+    return n*step + geometricSequence(n-1, step);
+  else
+    return 1;
+}
+
+alert('recur.js: factorial of ' + 4 + " = " + factorial(4))
+alert('recur.js: arithemic sequence of ' + 3 + " = " + arithmeticSequence(3))
+alert('recur.js: geometric sequence of ' + 3 + ' with step 2' + " = " + geometricSequence(3, 2))
 
 
