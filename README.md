@@ -184,13 +184,13 @@ Project URL:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://github.com/dccstcc/TAU_PJATK_practice.svg?style=for-the-badge
+[contributors-shield]: https://github.com/dccstcc/TIN_PJATK_practice.svg?style=for-the-badge
 [contributors-url]: https://github.com/dccstcc/TIN_PJATK_practice/graphs/contributors
-[forks-shield]: https://github.com/dccstcc/TAU_PJATK_practice.svg?style=for-the-badge
+[forks-shield]: https://github.com/dccstcc/TIN_PJATK_practice.svg?style=for-the-badge
 [forks-url]: https://github.com/dccstcc/TIN_PJATK_practice/network/members
-[stars-shield]: https://github.com/dccstcc/TAU_PJATK_practice.svg?style=for-the-badge
+[stars-shield]: https://github.com/dccstcc/TIN_PJATK_practice.svg?style=for-the-badge
 [stars-url]: https://github.com/dccstcc/TIN_PJATK_practice/stargazers
-[issues-shield]: https://github.com/dccstcc/TAU_PJATK_practice.svg?style=for-the-badge
+[issues-shield]: https://github.com/dccstcc/TIN_PJATK_practice.svg?style=for-the-badge
 [issues-url]: https://github.com/dccstcc/TIN_PJATK_practice/issues
 [license-shield]: https://img.shields.io/badge/License-NONE-orange
 [license-url]: https://github.com/dccstcc/TIN_PJATK_practice/blob/master/LICENSE.md
