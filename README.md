@@ -22,8 +22,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![NO LICENSE][license-shield]][license-url]
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/dccstcc/TIN_PJATK_practice)
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
