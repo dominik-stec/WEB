@@ -104,15 +104,15 @@ Node.js for build web page is required. <br />
 
  <img src="images/lab1.png" width="300"/>
  
-     <br />
-    <br />
+  <br />
+  <br />
 
 2. [Web page evolution](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab2)
 
  <img src="images/lab2.png" width="300"/>
  
-     <br />
-    <br />
+  <br />
+  <br />
 
 3. [Different web technics](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab3)
 
@@ -122,15 +122,15 @@ Node.js for build web page is required. <br />
 
  <img src="images/lab3_3.png" width="300"/>
  
-     <br />
-    <br />
+  <br />
+  <br />
 
 4. [Standalone web page](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab4) 
 
  <img src="images/lab4.png" width="300"/>
  
-     <br />
-    <br />
+  <br />
+  <br />
 
 5. [JavaScript scripts](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab5)
 
@@ -144,15 +144,15 @@ Node.js for build web page is required. <br />
 
  <img src="images/lab5_5.png" width="300"/>
  
-     <br />
-    <br />
+  <br />
+  <br />
 
 6. [Node.js simple project](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab6)
 
  <img src="images/lab6.png" width="300"/>
  
-     <br />
-    <br />
+  <br />
+  <br />
 
 
 <!-- USAGE EXAMPLES -->
