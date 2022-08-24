@@ -22,7 +22,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![NO LICENSE][license-shield]][license-url]
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/dccstcc/TAU_PJATK_practice)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/dccstcc/TIN_PJATK_practice)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -31,12 +31,12 @@
     <img src="images/logo.jpg" alt="Logo" width="540" height="80">
   </a>
 
-  <h2 align="center">TAU_PJATK_practice</h2>
+  <h2 align="center">TIN_PJATK_practice</h2>
 
   <p align="center">
-    <h3> Testing technology subject in PJATK </h3>
+    <h3> Web technology solutions subject in PJATK </h3>
     <br />
-    <a href="https://github.com/dccstcc/TAU_PJATK_practice"><strong>» go to CODE »</strong></a>
+    <a href="https://github.com/dccstcc/TIN_PJATK_practice"><strong>» go to CODE »</strong></a>
     <br />
     <br />
     <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
@@ -80,58 +80,46 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p> In this project I use different technologies for test software. </p>
+<p> In this project I try implement different types of technics use in web technologies. </p>
 
 ### Built With
 
 This project use technology below.
-* [![docker][docker-shield]][docker-url]
-* [![junit][junit-shield]][junit-url]
-* [![mockito][mockito-shield]][mockito-url]
-* [![maven][maven-shield]][maven-url]
-* [![cucumber][cucumber-shield]][cucumber-url]
-* [![jmeter][jmeter-shield]][jmeter-url]
-* [![jetty][jetty-shield]][jetty-url]
-* [![selenium][selenium-shield]][selenium-url]
-* [![robotframework][robotframework-shield]][robotframework-url]
-* [![python][python-shield]][python-url]
+* [![javascript][javascript-shield]][javascript-url]
+* [![css][css-shield]][css-url]
+* [![html][html-shield]][html-url]
+* [![node][node-shield]][node-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Bottom links describe each technology I used for test code in projected software.
+Bottom links contains web projects for run into browser.
 
 ### Prerequisites
 
-Docker for build images is required. <br />
-JUnit unit test framework for Java is need. <br />
-Mockito framework for use in JUnit stubs/mocks is need. <br />
-Maven project management library is need. <br />
-Cucumber BDD test library is need. <br />
-Jmeter efficiency test library is need. <br />
-Jetty web container is need. <br />
-Selenium automation test library is need. <br />
-Robot test framework is need. <br />
-Python interpreter is need. <br />
+Node.js for build web page is required. <br />
 
 
 ### Projects
 
-1. [JUnit, Mockito, Docker](https://github.com/dccstcc/TAU_PJATK_practice/tree/master/lab_1_3_JUnit_Mockito) 
+1. [Web page initialization](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab1) 
 
-2. [Cucumber](https://github.com/dccstcc/TAU_PJATK_practice/tree/master/lab_4_BDD)
+2. [Web page evolution](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab2)
 
-3. [Jmeter](https://github.com/dccstcc/TAU_PJATK_practice/tree/master/lab_5_Jmeter)
+3. [Different web technics](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab3)
 
-4. [Selenium](https://github.com/dccstcc/TAU_PJATK_practice/tree/master/lab_6_Selenium) 
+4. [Standalone web page](hhttps://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab4) 
 
-5. [Robot](https://github.com/dccstcc/TAU_PJATK_practice/tree/master/lab_7_Robot)
+5. [JavaScript scripts](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab5)
+
+6. [Node.js simple project](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab6)
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Under specified links are instructions which describe solutions how to use chose test technology.
+Under specified links are index.html files. This files are entry to run projects into web browser. <br />
+`Node.js simple project` need Node.js library.
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
@@ -174,7 +162,7 @@ Dominik Stec - dccstcc@gmail.com
 
 Project URL: 
 <br />
-`https://github.com/dccstcc/TAU_PJATK_practice.git`
+`https://github.com/dccstcc/TIN_PJATK_practice`
 
 
 
@@ -234,3 +222,12 @@ Project URL:
 [robotframework-url]: https://robotframework.org/
 [python-shield]: https://img.shields.io/badge/-Python-yellow
 [python-url]: https://www.python.org/
+
+[node-shield]: https://img.shields.io/badge/-Node-yellow
+[node-url]: https://nodejs.org/en/
+[javascript-shield]: https://img.shields.io/badge/-JavaScript-yellow
+[javascript-url]: https://developer.mozilla.org/pl/docs/Web/JavaScript
+[html-shield]: https://img.shields.io/badge/-HTML-yellow
+[html-url]: https://www.w3schools.com/html/
+[css-shield]: https://img.shields.io/badge/-CSS-yellow
+[css-url]: https://www.w3schools.com/css/
