@@ -168,6 +168,8 @@ Node.js for build web page is required. <br />
 
 Under specified links are index.html files. This files are entry to run projects into web browser. <br />
 `Node.js simple project` need Node.js library.
+<br />
+In this project run `npm start`
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
