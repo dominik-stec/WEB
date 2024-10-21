@@ -99,7 +99,7 @@ Node.js for build web page is required. <br />
 
 <br />
 
-1. [Web page initialization](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab1)
+1. [Web page initialization](https://github.com/dominik-stec/WEB/tree/main/lab1)
    <br />
 
  <img src="images/lab1.png" width="300"/>
@@ -107,7 +107,7 @@ Node.js for build web page is required. <br />
   <br />
   <br />
 
-2. [Web page evolution](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab2)
+2. [Web page evolution](https://github.com/dominik-stec/WEB/tree/main/lab2)
    <br />
 
  <img src="images/lab2.png" width="300"/>
@@ -115,7 +115,7 @@ Node.js for build web page is required. <br />
   <br />
   <br />
 
-3. [Different web technics](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab3)
+3. [Different web technics](https://github.com/dominik-stec/WEB/tree/main/lab3)
    <br />
 
  <img src="images/lab3.png" width="300"/>
@@ -127,7 +127,7 @@ Node.js for build web page is required. <br />
   <br />
   <br />
 
-4. [Standalone web page](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab4)
+4. [Standalone web page](https://github.com/dominik-stec/WEB/tree/main/lab4)
    <br />
 
  <img src="images/lab4.png" width="300"/>
@@ -135,7 +135,7 @@ Node.js for build web page is required. <br />
   <br />
   <br />
 
-5. [JavaScript scripts](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab5)
+5. [JavaScript scripts](https://github.com/dominik-stec/WEB/tree/main/lab5)
    <br />
 
  <img src="images/lab5.png" width="300"/>
@@ -151,7 +151,7 @@ Node.js for build web page is required. <br />
   <br />
   <br />
 
-6. [Node.js simple project](https://github.com/dccstcc/TIN_PJATK_practice/tree/main/lab6)
+6. [Node.js simple project](https://github.com/dominik-stec/WEB/tree/main/lab6)
    <br />
 
  <img src="images/lab6.png" width="300"/>
@@ -208,7 +208,7 @@ Dominik Stec - dccstcc@gmail.com
 
 Project URL:
 <br />
-`https://github.com/dominik-stec/WEB_technologies.git`
+`https://github.com/dominik-stec/WEB.git`
 
 <!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
@@ -229,16 +229,16 @@ Project URL:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/dominik-stec/WEB_technologies.svg?style=for-the-badge
-[contributors-url]: https://github.com/dominik-stec/WEB_technologies/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dominik-stec/WEB_technologies.svg?style=for-the-badge
-[forks-url]: https://github.com/dominik-stec/WEB_technologies/network/members
-[stars-shield]: https://img.shields.io/github/stars/dominik-stec/WEB_technologies.svg?style=for-the-badge
-[stars-url]: https://github.com/dominik-stec/WEB_technologies/stargazers
-[issues-shield]: https://img.shields.io/github/issues/dominik-stec/WEB_technologies.svg?style=for-the-badge
-[issues-url]: https://github.com/dominik-stec/WEB_technologies/issues
+[contributors-shield]: https://img.shields.io/github/contributors/dominik-stec/WEB.svg?style=for-the-badge
+[contributors-url]: https://github.com/dominik-stec/WEB/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dominik-stec/WEB.svg?style=for-the-badge
+[forks-url]: https://github.com/dominik-stec/WEB/network/members
+[stars-shield]: https://img.shields.io/github/stars/dominik-stec/WEB.svg?style=for-the-badge
+[stars-url]: https://github.com/dominik-stec/WEB/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dominik-stec/WEB.svg?style=for-the-badge
+[issues-url]: https://github.com/dominik-stec/WEB/issues
 [license-shield]: https://img.shields.io/badge/License-NONE-orange
-[license-url]: https://github.com/dominik-stec/WEB_technologies/blob/master/LICENSE.md
+[license-url]: https://github.com/dominik-stec/WEB/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dominik-stec
 [product-screenshot]: images/screenshot.png
