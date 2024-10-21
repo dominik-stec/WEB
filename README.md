@@ -202,13 +202,13 @@ See `LICENSE` for more information.
 
 ## Contact
 
-Dominik Stec - dominikstec@devapp.tools
+Dominik Stec - dccstcc@gmail.com
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 Project URL:
 <br />
-`https://github.com/dominik-stec/WEB_technologies_PJA.git`
+`https://github.com/dominik-stec/WEB_technologies.git`
 
 <!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
